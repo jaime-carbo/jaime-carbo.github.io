@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import './Header.css';
+import Header from './Header';
 
 function App() {
   return (
@@ -15,11 +17,20 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Do learn React
         </a>
       </header>
     </div>
   );
 }
 
-export default App;
+function Test() {
+  return (
+    <div>
+      <Header  title = "My portfolio"/>
+    </div>
+  );
+}
+
+export default Test;
+
