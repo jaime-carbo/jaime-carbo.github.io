@@ -1,8 +1,8 @@
 /*./Navigation.css*/
 
 .navigation {
-    background-color: #495877;
-    min-height: 5vh;
+    background-color: #44899b;
+    min-height: 4vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -15,6 +15,6 @@
 .nav-link {
     color: white;
     text-decoration: none;
-    padding: 2rem;
+    padding: 1rem;
     border: 1px solid white;
 }
